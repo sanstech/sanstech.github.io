@@ -1,41 +1,343 @@
 <!DOCTYPE html>
-<!-- adapted from Skeptix { love that }  -->
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Bash.ID - Watch and Learn</title>
-   <link rel="stylesheet" href="css/BashID.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- <title>Ihsan ID</title> -->
+<script type='text/javascript'>
+//<![CDATA[
+msg = " Official Website Muhammad Ihsan | ";
+pos = 0;
+function scrollMSG() {
+document.title = msg.substring(pos, msg.length) + msg.substring(0, pos); pos++;
+if (pos > msg.length) pos = 0
+window.setTimeout("scrollMSG()",80);
+}
+scrollMSG();
+//]]>
+</script>
+  <meta name="Description" content="Official Website Muhammad Ihsan">
+  <meta	name="Author" content="Muhammad Ihsan">
+  <meta name="Keywords" content="Official Website Muhammad Ihsan">
+  <meta name="viewport" content="width=device-width">
+  <link href="http://i.imgur.com/QYUFm5u.png" rel="SHORTCUT ICON" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
 </head>
-<body>
-
-<pre>
-__________               .__         .___________   
-\______   \_____    _____|  |__      |   \______ \  
- |    |  _/\__  \  /  ___/  |  \     |   ||    |  \ 
- |    |   \ / __ \_\___ \|   Y  \    |   ||    `   \
- |______  /(____  /____  >___|  / /\ |___/_______  /
-        \/      \/     \/     \/  \/             \/ 
-</pre>
-     <p> <t>[</t> Group for discussing scripting for <t>bash, sh, zsh or any other shell</t> in the GNU/Linux <t>]</t> </p> 
-	 <p> <t>[</t> Share your <t>shell</t> script maybe for <t>pentest & tips here and help other to work</t> through scripting problem <t>]</t> </p> 
-	   <br/>
-	   <p> <t>[</t> News <t>]</t> </p> 
-	<p> Coming Soon <t>  </t> </p>
-	<p> Topic <t> - Coming Soong </t> </p>
-	<br/>
-	<p> <t>[</t> Log Kulgram <t>]</t> </p> 
-	<a href="https://raw.githubusercontent.com/Screetsec/screetsec.github.io/master/log/0x1/Bash%20In%20My%20Work%20Life.pdf"><p> { 0x1 } : <t>Bash In My Work Life</t> - Matias Prasodjo</p></a>
-	<a href="https://raw.githubusercontent.com/Screetsec/screetsec.github.io/c3d1b76b58144a418e6cd02bf144d1404b79671b/log/0x2/Introduce%20and%20ZSH%20Custom.pdf"><p> { 0x2 } : <t>Introduce & ZSH Customization</t> - Yuga Nugraha</p></a>
-	<a href="https://raw.githubusercontent.com/Screetsec/screetsec.github.io/master/log/0x3/Bot%20in%20Bash%20Console%20%26%20Modular.pdf"><p> { 0x3 } : <t>Make & Modularized telegram bot bash script.</t> - Epsi Sayidina</p></a>
-	<br/>
-	 <br/>
-	   <p> <t>[</t> Kulgram <t>]</t> </p> 
-	<p> Join Us in <t> https://t.me/Bash_ID </t> </p>
-	   <br/>
-	   <p> <t>[</t> Community ID in Telegram <t>]</t> </p> 
-	   <t>Reversing.ID - IndoXploit - dracOS Linux Indonesia - Gauli.Net - Kali Linux Indonesia -  Forensika.ID - NgeSec - Python Indonesia</t>
-	   <br/>
-
-  </div>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                <t>
+                    Ihsan ID
+                </t>
+                </h2>
+                <h4>
+                <t>
+                    IT Se{curity} / Programmer Jr / Linuxer
+                </t>
+                </h4>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#about"><i class="icon-user"></i><span> <t>About Me</t></span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#resume"><i class="icon-file-text"></i><span> <t>Resume</t></span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#portfolio"><i class="icon-heart"></i><span> <t>Portfolio</t></span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#contact"><i class="icon-envelope"></i><span><t> Contact</t></span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="https://instagram.fpku4-1.fna.fbcdn.net/vp/ce9d3aee7687c3d9e4e7fada774f459c/5B22C71A/t51.2885-15/s640x640/sh0.08/e35/21569073_275446019636037_2304979750851969024_n.jpg" alt="Muhammad Ihsan">
+                            </div>
+                            <div class="info">
+                                <h2>
+                                <t>
+                                    Muhammad Ihsan
+                                </t>
+                                </h2>
+                                <h4>
+                                <t>
+                                    IT Se{curi}ty / Programmer Jr / Linuxer
+                                </t>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    <li>
+                                        <a href="#resume"><t>View My Resume</t></a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio"><t>My Portfolio</t></a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact"><t>Contact Me</t></a>
+                                    </li>
+                                    <li>
+                                        <a href="#features"><t>Features</t></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-envelope"></i>
+                              <div class="item-data">
+                                <h3><a href="mailto:me@ihsanmhd.net"><t>me[at]ihsanmhd[dot]net</t></a></h3>
+                                <p>Email Address</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-facebook"></i>
+                              <div class="item-data">
+                                <h3><a href="http://fb.me/fru.mil.id" target="_blank"><t>Muhammad Ihsan</t></a></h3>
+                                <p>Facebook Profile</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-twitter"></i>
+                              <div class="item-data">
+                                <h3><a href="https://www.linkedin.com/in/sanss" target="_blank"><t>Muhammad Ihsan</t></a></h3>
+                                <p>LinkedIn</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <h3>
+                                Work Experience
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Staff Administrator
+                                    </h5><span class="label label-info">2017-Now</span>
+                                    <p>
+                                        Staff Administrator in government agencies
+                                    </p>
+                                </li>
+                            </ul>
+                            <h3>
+                                Education
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Elementary School
+                                    </h5><span class="label label-success">2005-20011</span>
+                                    <p>
+                                        Studied in SD S Josua Medan
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Junior High School
+                                    </h5><span class="label label-warning">2012-2014</span>
+                                    <p>
+                                        Studied in SMP S Pahlawan Nasional Medan
+                                    </p>
+                                </li>
+								<li>
+                                    <h5>
+                                        Senior High School
+                                    </h5><span class="label label-warning">2015-2017</span>
+                                    <p>
+                                        Studied in SMK S Tritech Informatika Medan with Software Engineering Major
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        College
+                                    </h5><span class="label label-warning">2017-Now</span>
+                                    <p>
+                                        Studied in Potensial University (Universitas Potensi Utama) with  Majors of Informatics Engineering
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="g1">
+                            <div class="sidebar">
+                                <h3>
+                                    Skills
+                                </h3>
+                                <h5>
+                                    Software
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 70%"><span>Dreamweaver</span></span>
+                                </div>
+                                <div class="meter emerald">
+                                    <span style="width: 85%"><span>Microsoft Office</span></span>
+                                </div>
+                                <div class="meter emerald">
+                                    <span style="width: 85%"><span>Linux</span></span>
+                                </div>
+                                <div class="meter emerald">
+                                    <span style="width: 75%"><span>Web Design</span></span>
+                                </div>
+                                <div class="meter emerald">
+                                    <span style="width: 30%"><span>Photoshop</span></span>
+                                </div>
+                                <div class="break"></div>
+                                <h5>
+                                    Programming Language
+                                </h5>
+                                <div class="meter asbestos">
+                                    <span style="width: 79%"><span>HTML/CSS</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 85%"><span>PHP/MySql</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 68%"><span>C / C++</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 65%"><span>Java</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 50%"><span>Python</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Portfolio Tab Data -->
+                <div id="portfolio">
+                    <section class="clearfix">
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/2.png" alt="" style="height: 250px;">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="#" class="btn">Aplikasi Data Obat</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/1.png" alt="" style="height: 250px;">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="#" class="btn">Aplikasi Trading Balance</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Portfolio Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>My Address</h4>
+                              <p>Jalan Pancing III Gg. Selamat <br>Kelurahan Indra Kasih<br> Kecamatan Medan Tembung<br>20221<br> Medan, North Sumatera, Indonesia</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-phone"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Mobile Number & Email</h4>
+                              <p>(+62)822-6011-4546<br/>
+                              me[at]ihsanmhd[dot]net<br>
+                              ihsanmhd01[at]gmail[dot]com</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>About Me</h4>
+                              <p>Just a man who attracted with IT, Especially IT Se{curi}ty.</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+                       
+                    </section>
+                </div>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+        <!-- End Tab Container -->
+        <footer>
+            <p>
+            <t>
+                Made with ❤ - All Reserved
+            </t>
+            </p>
+        </footer>
+    </div><!-- #main -->
+</div><!-- #main-container -->
 </body>
 </html>

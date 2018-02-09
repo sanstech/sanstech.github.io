@@ -15,8 +15,10 @@ bolds {
 	font-size: 11px;
 }
 
-h3 {
-	
+h3 , h4, h5{
+	font-family: Courier new;
+	font-style:bold; 
+	color: #20948B;
 }
 
 p { 
@@ -29,8 +31,8 @@ p {
 t {	
 	font-family: Courier new;
 	font-style:bold; 
-	color: green;
-	font-size: 13px;
+	color: #20948B;
+	font-size: 15px;
 }
 pre {
     color: green;
@@ -53,3 +55,5 @@ pre {
     display: table;
     clear: both;
 }
+
+/* ---- reset ---- */
